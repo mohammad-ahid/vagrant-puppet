@@ -18,7 +18,7 @@ class php {
 
        file { '/var/www/index.php':
                ensure => file,
-               content => '<?php  phpinfo(); ?>',    # phpinfo code
+               content => '<?php  phpinfo(); ?>',   # phpinfo code
                require => Package['nginx'],        # require 'nginx' package before creating
         } 
 }
