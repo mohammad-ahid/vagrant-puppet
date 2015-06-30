@@ -7,16 +7,6 @@ Use precise32 box. Modules ```puppet/modules```
 [Vagrant](https://vagrantup.com)
 [Puppet](http://puppetlabs.com/)
 
-## How To Use
-
-```bash
-
-$ git clone http://git.ageng.me/ageng/wpvag.git -b vagpup 
-$ cd vagpup
-$ vagrant up
-
-```
-
 Point [localhost:8989](localhost:8989)
 
 ## License 
